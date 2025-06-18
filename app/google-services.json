@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "682889103133",
+    "project_id": "eduflash-90e10",
+    "storage_bucket": "eduflash-90e10.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682889103133:android:1893fdb2d085c5f6bc43f4",
+        "android_client_info": {
+          "package_name": "lk.cmb.eduflash"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbxH9CXeifQGNacevQKDlgPGV-9YBxofY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

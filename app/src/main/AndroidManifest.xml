@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lk.cmb.eduflash"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Internet permission needed for Firebase and network -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FotNewsJava"
+        tools:targetApi="31">
+
+        <!-- SplashActivity as Launcher -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- LoginActivity (exported true to allow navigation from RegisterActivity) -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+
+        <!-- RegisterActivity (exported true so it can be started if needed) -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+
+        <!-- MainActivity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <!-- ArticleDetailActivity -->
+        <activity
+            android:name=".ArticleDetailActivity"
+            android:exported="true" />
+
+    </application>
+
+</manifest>
