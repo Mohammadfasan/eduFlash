@@ -28,7 +28,7 @@
         android:id="@+id/loginBox"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/box_background"
+        android:background="#CBD9FC"
         android:orientation="vertical"
         android:padding="16dp"
         app:layout_constraintTop_toTopOf="parent"

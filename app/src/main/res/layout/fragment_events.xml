@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#a1c5f5"
+    android:background="@color/background"
     android:orientation="vertical"
     android:padding="12dp">
 
@@ -11,23 +10,23 @@
         android:id="@+id/searchBarSports"
         android:layout_width="match_parent"
         android:layout_height="48dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="12dp"
         android:background="@drawable/search_bg"
+        android:drawableStart="@drawable/ic_search"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
         android:hint="Search Events News..."
         android:paddingStart="40dp"
         android:paddingEnd="12dp"
-        android:layout_marginBottom="12dp"
-        android:layout_marginTop="22dp"
-        android:drawableStart="@drawable/ic_search"
-        android:drawablePadding="10dp"
-        android:textColorHint="#B0B0B0"
         android:textColor="@color/whitetext"
-        android:gravity="center_vertical" />
+        android:textColorHint="#B0B0B0" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewEvents"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:contentDescription="Academic news list"/>
+        android:contentDescription="Academic news list" />
 
 </LinearLayout>

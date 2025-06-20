@@ -123,6 +123,6 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/btn_dark_rounded"
             android:text="Sign out"
-            android:textColor="@color/whitetext" />
+            android:textColor="#D32F2F" />
     </LinearLayout>
 </LinearLayout>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="background">#ADD8E6</color>
-    <color name="whitetext">#CBD9FC</color>
+    <color name="whitetext">#45B7F3</color>
     <color name="loginbox">#338CF6</color>
     <color name="buttonbg">#021126</color>
     <color name="editTextFocused">#E0F7FA</color>
